@@ -3,10 +3,12 @@ channels:
   - conda-forge
   - defaults
   - pytorch
-  - tallic
 dependencies:
+  - jupyter
+  - matplotlib
   - numpy
   - pytorch-cpu
   - torchvision-cpu
-  - pyro-ppl
-  - matplotlib
+  - pip
+  - pip:
+      - pyro-ppl
