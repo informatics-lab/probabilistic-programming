@@ -1,0 +1,14 @@
+name: probabilistic-programming
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - jupyter
+  - matplotlib
+  - numpy
+  - pytorch-cpu
+  - torchvision-cpu
+  - pip
+  - pip:
+      - pyro-ppl
