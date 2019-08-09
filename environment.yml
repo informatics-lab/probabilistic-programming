@@ -9,6 +9,7 @@ dependencies:
   - numpy
   - pytorch-cpu
   - torchvision-cpu
+  - ffmpeg
   - pip
   - pip:
       - pyro-ppl
